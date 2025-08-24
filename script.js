@@ -1,6 +1,5 @@
-// Generar QR con la URL del menú
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-  text: window.location.href, // Usa la URL actual del archivo
+  text: "https://antohnycastilloastudillo-bit.github.io.", // Reemplaza con tu link
   width: 200,
   height: 200
 });
