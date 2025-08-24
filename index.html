@@ -1,54 +1,83 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carta del Restaurante</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>🍴 Restaurante Buen Sabor</h1>
-    <p>Escanea el QR para ver la carta en tu celular</p>
-  </header>
+<main>
+  <section class="menu">
+    <h2>Entradas</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1601050690591-3e6b1c4d9c23?auto=format&fit=crop&w=800&q=80" alt="Causa Limeña">
+        <div class="card-body">
+          <h3>Causa Limeña</h3>
+          <p>S/12</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617196038433-3df0f94d8dc7?auto=format&fit=crop&w=800&q=80" alt="Papa a la Huancaína">
+        <div class="card-body">
+          <h3>Papa a la Huancaína</h3>
+          <p>S/10</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Anticuchos">
+        <div class="card-body">
+          <h3>Anticuchos</h3>
+          <p>S/15</p>
+        </div>
+      </div>
+    </div>
 
-  <main>
-    <section class="menu">
-      <h2>Entradas</h2>
-      <ul>
-        <li>Causa Limeña - S/12</li>
-        <li>Papa a la Huancaína - S/10</li>
-        <li>Anticuchos - S/15</li>
-      </ul>
+    <h2>Platos de Fondo</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1608759263222-f4b4e24905a3?auto=format&fit=crop&w=800&q=80" alt="Arroz con Pollo">
+        <div class="card-body">
+          <h3>Arroz con Pollo</h3>
+          <p>S/18</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600891963939-a9b69c9b6a64?auto=format&fit=crop&w=800&q=80" alt="Lomo Saltado">
+        <div class="card-body">
+          <h3>Lomo Saltado</h3>
+          <p>S/20</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1608759471363-5e7e9e2c3f1c?auto=format&fit=crop&w=800&q=80" alt="Pollo a la Brasa">
+        <div class="card-body">
+          <h3>Pollo a la Brasa</h3>
+          <p>S/25</p>
+        </div>
+      </div>
+    </div>
 
-      <h2>Platos de Fondo</h2>
-      <ul>
-        <li>alitas broaster - S/15</li>
-        <li>Lomo Saltado - S/20</li>
-        <li>Pollo a la Brasa - S/25</li>
-      </ul>
+    <h2>Bebidas</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1590080875831-17bafc91c5ac?auto=format&fit=crop&w=800&q=80" alt="Chicha Morada">
+        <div class="card-body">
+          <h3>Chicha Morada</h3>
+          <p>S/6</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617191516076-8f9c0eec2206?auto=format&fit=crop&w=800&q=80" alt="Inca Kola">
+        <div class="card-body">
+          <h3>Inca Kola</h3>
+          <p>S/5</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1626075418714-90c71f6b0e94?auto=format&fit=crop&w=800&q=80" alt="Cerveza">
+        <div class="card-body">
+          <h3>Cerveza</h3>
+          <p>S/8</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <h2>Bebidas</h2>
-      <ul>
-        <li>Chicha Morada - S/6</li>
-        <li>Inca Kola - S/5</li>
-        <li>Cerveza - S/8</li>
-      </ul>
-    </section>
-
-    <section class="qr">
-      <h2>📱 QR del Menú</h2>
-      <div id="qrcode"></div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Restaurante Buen Sabor</p>
-  </footer>
-
-  <!-- Librería de QR -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
-
+  <section class="qr">
+    <h2>📱 Escanea el QR</h2>
+    <div id="qrcode"></div>
+  </section>
+</main>
