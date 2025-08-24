@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta del Restaurante</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍴 Restaurante Buen Sabor</h1>
+    <p>Escanea el QR para ver la carta en tu celular</p>
+  </header>
+
+  <main>
+    <section class="menu">
+      <h2>Entradas</h2>
+      <ul>
+        <li>Causa Limeña - S/12</li>
+        <li>Papa a la Huancaína - S/10</li>
+        <li>Anticuchos - S/15</li>
+      </ul>
+
+      <h2>Platos de Fondo</h2>
+      <ul>
+        <li>Arroz con Pollo - S/18</li>
+        <li>Lomo Saltado - S/20</li>
+        <li>Pollo a la Brasa - S/25</li>
+      </ul>
+
+      <h2>Bebidas</h2>
+      <ul>
+        <li>Chicha Morada - S/6</li>
+        <li>Inca Kola - S/5</li>
+        <li>Cerveza - S/8</li>
+      </ul>
+    </section>
+
+    <section class="qr">
+      <h2>📱 QR del Menú</h2>
+      <div id="qrcode"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Restaurante Buen Sabor</p>
+  </footer>
+
+  <!-- Librería de QR -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
